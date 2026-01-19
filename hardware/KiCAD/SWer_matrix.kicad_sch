@@ -1,0 +1,105 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "2c0da54d-2afb-46ce-9ac5-2596046e7917")
+	(paper "A4")
+	(title_block
+		(title "Swticher Matrix 4x4")
+		(date "2025-12-10")
+		(rev "r1p0")
+		(company "Optoland Design")
+		(comment 1 "Chuck Timber")
+	)
+	(lib_symbols)
+	(sheet
+		(at 120.65 83.82)
+		(size 49.53 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "562ea25f-25ba-41ac-8abc-78e5981c1581")
+		(property "Sheetname" "Control"
+			(at 120.65 83.1084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Control.kicad_sch"
+			(at 120.65 104.7246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SWer_matrix"
+				(path "/2c0da54d-2afb-46ce-9ac5-2596046e7917"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 55.88 83.82)
+		(size 48.26 20.32)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c35b040c-f7dd-4ce4-8041-7eb546f46e78")
+		(property "Sheetname" "SignalPath"
+			(at 55.88 83.1084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "SignalPath.kicad_sch"
+			(at 55.88 104.7246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SWer_matrix"
+				(path "/2c0da54d-2afb-46ce-9ac5-2596046e7917"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

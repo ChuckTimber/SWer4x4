@@ -1,0 +1,40 @@
+# AVR build artifacts
+*.elf
+*.hex
+*.eep
+*.lss
+*.map
+*.o
+*.d
+*.a
+*.bin
+
+# Atmel/Microchip Studio
+Debug/
+Release/
+*.user
+*.suo
+*.dep
+.vs/
+
+# PlatformIO
+.pio/
+
+# KiCad temporary files
+*.kicad_prl
+*.tmp
+*.bak
+fp-info-cache
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*.zip
+
+# FreeCAD temporary files
+*.FCBak
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project redundant files
+datasheet/
